@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j7t-sE-s80">
-                                <frame key="frameInset" minY="71" width="320" height="51"/>
+                                <frame key="frameInset" minY="106" width="320" height="51"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4KE-FL-zMV">
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -48,20 +48,17 @@
                                     </mask>
                                 </variation>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Your Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUg-at-i99">
-                                <frame key="frameInset" minX="-42" minY="-21" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUg-at-i99">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="G1y-Of-zaW">
-                                <frame key="frameInset" minX="-18" minY="166" width="400" height="216"/>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="G1y-Of-zaW">
                                 <date key="date" timeIntervalSinceReferenceDate="495144879.65097302">
                                     <!--2016-09-09 20:14:39 +0000-->
                                 </date>
                             </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epa-xK-nXi">
-                                <frame key="frameInset" minX="136" minY="434" width="49" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epa-xK-nXi">
                                 <state key="normal" title="Accept"/>
                                 <connections>
                                     <action selector="acceptValues:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YjT-3S-rTw"/>
@@ -92,12 +89,12 @@
                                 <exclude reference="HXI-GA-0j3"/>
                                 <exclude reference="FVw-bP-F8G"/>
                                 <exclude reference="Yrs-Vr-w1L"/>
+                                <exclude reference="49G-wz-SCD"/>
+                                <exclude reference="RCj-tq-Wma"/>
                                 <exclude reference="8Lb-OD-hfe"/>
                                 <exclude reference="DWZ-lH-FmR"/>
                                 <exclude reference="XB6-zx-jZR"/>
                                 <exclude reference="dKS-gO-Y6e"/>
-                                <exclude reference="49G-wz-SCD"/>
-                                <exclude reference="RCj-tq-Wma"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -111,12 +108,12 @@
                                 <include reference="HXI-GA-0j3"/>
                                 <include reference="FVw-bP-F8G"/>
                                 <include reference="Yrs-Vr-w1L"/>
+                                <include reference="49G-wz-SCD"/>
+                                <include reference="RCj-tq-Wma"/>
                                 <include reference="8Lb-OD-hfe"/>
                                 <include reference="DWZ-lH-FmR"/>
                                 <include reference="XB6-zx-jZR"/>
                                 <include reference="dKS-gO-Y6e"/>
-                                <include reference="49G-wz-SCD"/>
-                                <include reference="RCj-tq-Wma"/>
                             </mask>
                         </variation>
                     </view>

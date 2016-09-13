@@ -40,8 +40,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         if nameField.text != nil {
             
-            let name = nameField.text!
+            var name = nameField.text!
             let date = datePicker.date
+            
+            if name == "" {
+                name = "Unknown"
+            }
         
             let alertController = UIAlertController(title: "Hi, " + name + "!", message: "You picked " + date.description, preferredStyle: .alert)
             
