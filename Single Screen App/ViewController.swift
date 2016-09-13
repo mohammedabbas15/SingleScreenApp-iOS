@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         view.endEditing(true)
     }
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
     }
@@ -36,19 +36,19 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func acceptValues(sender: UIButton) {
+    @IBAction func acceptValues(_ sender: UIButton) {
         
         if nameField.text != nil {
             
             let name = nameField.text!
             let date = datePicker.date
         
-            let alertController = UIAlertController(title: "Hi, " + name + "!", message: "You picked " + date.description, preferredStyle: .Alert)
+            let alertController = UIAlertController(title: "Hi, " + name + "!", message: "You picked " + date.description, preferredStyle: .alert)
             
-            let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+            let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(defaultAction)
             
-            presentViewController(alertController, animated: true, completion: nil)
+            present(alertController, animated: true, completion: nil)
         }
     }
 
